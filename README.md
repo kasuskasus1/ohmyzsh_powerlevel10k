@@ -2,7 +2,7 @@
 
 This script is used to install ohmyzsh along with powerlevel10k in MacOS.
 
-Make sure you have `curl` or `wget` and `git`.
+Make sure you have `curl` and `git`.
 
 1. Download and install [iTerm2](https://iterm2.com/downloads.html).
 2. Install `homebrew`:
