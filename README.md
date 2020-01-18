@@ -1,4 +1,4 @@
-# oh_my_zsh + powerlevel10k installation script
+# MacOs: zsh + oh_my_zsh + powerlevel10k installation and configuration
 
 This script is used to install ohmyzsh along with powerlevel10k in MacOS.
 
@@ -40,10 +40,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
         ```
     - Enabling `powerlevel10k` theme:
         ```
-        sed -i '' 's/^ZSH_THEME.*/ZSH_THEME=powerlevel10k\/powerlevel10k//g' ~/.zshrc
+        sed -i '' 's/^ZSH_THEME.*/ZSH_THEME=powerlevel10k\/powerlevel10k/g' ~/.zshrc
         ```
 10. Download and install a [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf).
-11. Set up profile in `iTerm2` settings in order to use `Hack Nerd Font`.
+11. Set up profile in `iTerm2` settings in order to use `Hack Nerd Font`. Press <kbd>Cmd</kbd>+<kbd>,</kbd> and then go to `Profiles` &rightarrow; `Text` tab.
 12. If you'd like to display some technical info on the right of the prompt line append the following lines to your `~/.zshrc' config file:
 ```
 # General Settings
